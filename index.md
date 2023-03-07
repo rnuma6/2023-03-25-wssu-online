@@ -446,8 +446,7 @@ during the workshop.
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
-For R: {% include (https://preview.carpentries.org/r-socialsci/) %} 
-For OpenRefine: {% include dc/setup.html %}
+{% include dc/setup.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/setup.html %}
 {% elsif site.carpentry == "incubator" %}
