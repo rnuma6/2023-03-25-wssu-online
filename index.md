@@ -10,11 +10,14 @@ language: "en"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "36.056450"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-80.251648"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Mar 25-26, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+humantime: "March 25: 9:00 am - 5:00 pm EDT
+    (1:00 pm - 9:00 pm UTC)
+March 26: 11:00 am - 5:00 pm EDT
+    (3:00 pm - 9:00 pm UTC)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2023-03-25      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2023-03-26        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["R. N. Uma", "Ammar Alkhaldi", "Jennifer Anne Wood Stubbs", ] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Charles Mickle", "Brixx john-Garcia Panlaqui", "Kiayia Propst"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Debzani Deb", "Charles Mickle", "Brixx John-Garcia Panlaqui", "Kiayia Propst"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["debd@wssu.edu","ruma@nccu.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2023-03-25-wssu-online  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
